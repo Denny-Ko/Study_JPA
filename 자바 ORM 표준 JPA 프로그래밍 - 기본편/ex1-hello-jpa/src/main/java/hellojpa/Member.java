@@ -6,12 +6,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-//@Table(name="Member")
+//@Table(name="USER")
 public class Member {
-
     @Id
     private Long id;
-    @Column(name="name", unique = true)
+//    @Column(name = "username")
     private String name;
 
     public Member() {
